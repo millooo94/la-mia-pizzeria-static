@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - la_mia_pizzeria_static</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>This is the header</header>
+    <div class="container">
+        <main role="main">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Image</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>i</td>
+                        <td class="image"><img class="post-link-image" src="/img/margherita.jpg"></td>
+                        <td class="title">
+                            Margherita
+                        </td>
+                        <td class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis magnam, mollitia vel ducimus qui hic rem adipisci quam pariatur est debitis itaque tempore dolorum quibusdam aperiam ipsum ratione temporibus nobis!</td>
+                        <td class="price">5€</td>
+                    </tr>
+                    <tr>
+                        <td>i</td>
+                        <td class="image"><img class="post-link-image" src="/img/brontese.png"></td>
+                        <td class="title">
+                            Brontese
+                        </td>
+                        <td class="description">description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis magnam, mollitia vel ducimus qui hic rem adipisci quam pariatur est debitis itaque tempore dolorum quibusdam aperiam ipsum ratione temporibus nobis!</td>
+                        <td class="price">13€</td>
+                    </tr>
+                    <tr>
+                        <td>i</td>
+                        <td class="image"><img class="post-link-image" src="/img/pizza-fritta.jpg"></td>
+                        <td class="title">
+                            Pizza fritta
+                        </td>
+                        <td class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis magnam, mollitia vel ducimus qui hic rem adipisci quam pariatur est debitis itaque tempore dolorum quibusdam aperiam ipsum ratione temporibus nobis!</td>
+                        <td class="price">7€</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+    <footer>
+        this is the footer
+    </footer>
+</body>
